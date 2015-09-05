@@ -7,7 +7,7 @@ def hello_world():
 
 @app.route('/feed')
 def feed():
-	return render_template('feeds1.txt')
+	return feeds1.txt
 
 if __name__ == '__main__':
     app.run()
