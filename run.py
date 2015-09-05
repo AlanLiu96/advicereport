@@ -1,11 +1,4 @@
 from flask import Flask, Response, request, jsonify
-from bs4 import BeautifulSoup
-
-f = open('static/feeds1.xml')
-
-xml= f.read()
-
-
 
 app = Flask(__name__, static_folder='static')
 
